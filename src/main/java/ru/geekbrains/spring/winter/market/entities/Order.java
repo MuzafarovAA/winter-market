@@ -25,8 +25,8 @@ public class Order {
     @JoinColumn(name = "user_id")
     private User user;
 
-    @OneToMany(mappedBy = "order")
-    private List<OrderItem> items;
+//    @OneToMany(mappedBy = "order_id")
+//    private List<OrderItem> items;
 
     @Column(name = "address")
     private String address;
